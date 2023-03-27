@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altitude Fitness Management</title>
+    <link
+      rel="shortcut icon"
+      href="/pictures/MicrosoftTeams-image (3).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/glacial-indifference-2"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/termOfUse.html">
+    <link rel="stylesheet" href="/privacyPolacy.html">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <!-- <html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><style>body{margin:0px;margin-top:60px;padding: 0px;}nav{display: fixed;position: fixed; top:0; width: 100%;background-color: rgb(251, 255, 196); overflow: auto;height: auto;}.left-links{flex:1 1 200px;}.links { display: inline-block;text-align: center; padding: 14px; color: rgb(0, 0, 0); text-decoration: none; font-size: 14px;font-weight: bolder;}.links:hover { border-bottom: 2px solid black;}.selected{ border-bottom: 2px solid red;}</style> -->
+
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <img
+            src="/pictures/Altitude Fitness Management SD1 Logo.png"
+            alt="log"
+            id="navbar__logo"
+          />
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="/index.html" class="navbarhome"  id="home-page">Home</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="https://www.fitmolife.com/" target="_blank" class="navbarfitmolife" id="services-page">FitMoLife</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="/services.html" target="_blank" class="navbarservices" id="about-page">Services<span class="arroww">ˇ</span></a>
+              <ul class="dropdown">
+              <li><a href="/gymGrown.html" target="_blank">Gym Growth</a></li>
+              <li><a href="/automatic.html" target="_blank">Automation</a></li>
+              <li><a href="/empolyee.html" target="_blank">Employee</a></li>
+              <li><a href="/peningDay.html" target="_blank">Gym Launch</a></li>
+            </ul>
+            </li>
+            <li class="navbar__item">
+              <a href="/ourdrive.html" target="_blank" class="navbardrive" id="services-pagee">Our Drive <span class="arroww">ˇ</span></a>
+              
+              <ul class="dropdown">
+                <li><a href="/team.html" target="_blank">Partners</a></li>
+              </ul>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#team" class="navbaraff" target="_blank" id="services-pageee">Affiliations<span class="arroww">ˇ</span></a>
+              <ul class="dropdown">
+                <li><a href="https://www.ncsf.org/" target="_blank">NCSF</a></li>
+                <li><a href="https://www.fbafitness.com/" target="_blank">FBA</a></li>
+                <li><a href="https://www.ihrsa.org/" target="_blank">IHRSA</a></li>
+                <li><a href="https://www.roguefitness.com/" target="_blank">Rogue</a></li>
+                <li><a href="https://www.lifefitness.com/en-us" target="_blank">Life Fitness</a></li>
+                <li><a href="https://www.precor.com/" target="_blank">Precor</a></li>
+                <li><a href="https://eleiko.com/en" target="_blank">Eleiko</a></li>
+              </ul>
+            </li>
+
+
+            <li class="navbar__item">
+              <a href="#" class="navbarconsultation" target="_blank" id="signup">Consultation</a>
+            </li>
+           
+           
+            <li class="navbar__item">
+              <a href="#" class="navbarblog" target="_blank" id="signupp">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <video autoplay loop muted>
+        <source src="/videos/Gym Example Compressed mp4.mp4" type="video/mp4" />
+      </video>
+
+      <div class="wrapper">
+        <div class="cols cols0 ">
+          <h1 class="text">
+            <span class="multiText blur"></span>
+          </h1>
+            <p class="text">
+              <span class="multiText_2"></span>
+            </p>
+            <li class="navbar__btn">
+              <a href="https://outlook.office365.com/owa/calendar/AltitudeFitnessManagementGroup@altitudemgmtintl.com/bookings/"  class="button" id="signin" target="_blank">Schedule online</a>
+            </li>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="services reveal" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+
+        <a href="/gymGrown.html" target="_blank">
+          <div class="services__card">
+            <div class="imageContainer1">
+            <h2>Gym Growth Management</h2>
+            <p>
+              Our gym growth management program is hand crafted to provide the best results for your sales and development. 
+            </p>
+          </div>
+        </div>
+        
+      </a>
+      <a href="/automatic.html" target="_blank">
+        <div class="services__card">
+          <div class="imageContainer2">
+          <h2>Automation Services</h2>
+          <p>
+            Our automation services feature cutting-edge software in fitness technology which function to ensure that your gym is not wasting any time pushing papers.
+          </p>
+        </div>
+        </div>
+      </a>
+
+      <a href="/empolyee.html" target="_blank">
+        <div class="services__card">
+          <div class="imageContainer3">
+          <h2>Employee Services</h2>
+          <p>
+            Struggling to staff your gym? We offer both on-demand employees to help with custodial and administrative duties, as well as a professional recruiter who can handle all your hiring needs.
+          </p>
+        </div>
+        </div>
+      </a>
+      <a href="/openingDay.html" target="_blank">
+        <div class="services__card">
+          <div class="imageContainer4">
+          <h2>Gym Launch Facility Consultation</h2>
+          <p>
+            Our consultation services are designed to help you navigate the tricky process and make informed decisions about every aspect of your facility.    
+          </p>
+        </div>
+        </div>
+      </a>
+      </div>
+    </div>
+
+
+    <!-- Business consulting -->
+    <div class="mainBsns reveal" id="about">
+      <h1 class="aboutUs">Our Drive</h1>
+      <div class="main__container_1">
+        <div class="main__img--container_1">
+          <div class="main__img--card_1">
+            <img src="/pictures/wallpaperflare.com_wallpaper.jpg" />
+          </div>
+        </div>
+        <div class="main__content_1">
+          <h1>The Why Behind You
+          </h1>
+          <p>
+            Discover how business consulting services can improve your company's
+            success. Get expert advice and tips from experienced business
+            consultants. By working with a consultant, you can get expert
+            guidance on everything from financial management to marketing
+            strategies, helping you take your business to the next level.
+          </p>
+          <button class="main__btn_1">
+            <a href="/fitnessManagement.html" target="_blank">Learn More</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marketing -->
+    <div class="mainMark reveal" id="sign-up">
+      <div class="main__container_2">
+        <div class="main__content_2">
+          <h1>Business Marketing Strategies</h1>
+          <p>
+            Marketing is an essential part of any business strategy. It helps to
+            reach out to potential customers, increase brand awareness, and
+            boost revenue. Business marketing involves a set of activities that
+            help to promote a product or service to a target audience.
+          </p>
+          <button class="main__btn_2">
+            <a href="/marketing.html" target="_blank">See More</a>
+          </button>
+        </div>
+        <div class="main__img--container_2">
+          <div class="main__img--card_2">
+            <img src="/pictures/AdobeStock_80447539 (1).jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+
+
+    <!-- FitMoLife Section -->
+    <div class="mainPod reveal" id="podcast">
+      <h1 class="podcast">FitMoLife The Podcast</h1>
+      <div class="main__container_3" >
+        <div class="main__content_3">
+          <h1>A podcast to motivate a business lifestyle changes</h1>
+          <p>
+            Discover a new way to achieve success in all aspects of your life
+            through the power of fitness with the podcast introducing a
+            transformative approach to lifestyle change.
+          </p>
+          <button class="main__btn_3">
+            <a href="https://www.fitmolife.com/" target="_blank">See More</a>
+          </button>
+        </div>
+        <div class="main__img--container_3">
+          <div class="main__img--card_3" id="card-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kl-KAxy1WTU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Members Section -->
+    <div id="team">
+    <section>
+      <div class="row_1">
+        <h1>Our Team</h1>
+      </div>
+      <div class="row_2">
+        <!-- Column 1-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="/pictures/pedro.jpg" />
+            </div>
+            <h3>Pedro De Freitas Cedeno</h3>
+            <p>Founder and CEO</p>
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAACqbLeoBkCA6uLQzhR6zOVNRrYQyr9rorqc&keywords=pedro%20de%20freitas%20cedeno&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=8a58f37c-f953-4cfc-880c-81a0999f6f42&sid=%3BbL" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Column 2-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="/pictures/Tim.png" />
+            </div>
+            <h3>Timothy Danfield</h3>
+            <p>TEch team development manager</p>
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3-->
+        <div class="column">
+          <div class="card">
+            <div class="img-container">
+              <img src="/pictures/MicrosoftTeams-image (4).png"/>
+            </div>
+            <h3>Matthew Wakumoto</h3>
+            <p>Social Media Manager</p>
+            <div class="icons">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/matthew-wakumoto-b37b47245/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <a href="/team.html" target="_blank">
+    <div class="seeMore">
+    <button class="outTeamBtn">View All</button>
+  </div>
+</a>
+  
+
+  <section class="affiliations">
+    <div class="row_1">
+      <h1>Industry Affiliations and Vendors</h1>
+    </div>
+    
+      <ul class="aff">
+       
+        <a href="https://www.ncsf.org/" target="_blank">
+          <div class="banner1">
+            <img src="/pictures/NCSF-National-Council-on-Strength-Fitness-1024x387-removebg-preview.png" alt="">
+          </div>
+        </a>
+
+
+        <a href="https://www.fbafitness.com/" target="_blank">        
+          <div class="banner2">
+            <img src="/pictures/fba-logo5-1024x614.png" alt="">
+          </div>
+        </a>
+        
+
+        <a href="https://www.ihrsa.org/" target="_blank">
+          <div class="banner3">
+            <img src="/pictures/sponor-removebg-preview.png" alt="">
+          </div>
+        </a>
+        
+
+        <a href="https://www.roguefitness.com/" target="_blank">
+          <div class="banner4">
+            <img src="/pictures/rogue-og-removebg-preview.png" alt="">
+          </div>
+        </a>
+        
+        <a href="https://www.lifefitness.com/en-us" target="_blank">
+          <div class="banner5">
+            <img src="/pictures/tmp_75604ff4-96b9-4125-ac72-d43af4099483-removebg-preview.png" alt="">
+          </div>
+        </a>
+        
+
+        <a href="https://www.precor.com/" target="_blank">
+          <div class="banner6">
+            <img src="/pictures/tmp_4a201831-e26f-4fa8-b1b6-ffe55a85bd21-removebg-preview.png" alt="">
+          </div>
+        </a>
+
+        <a href="https://eleiko.com/en" target="_blank">
+          <div class="banner7">
+            <img src="/pictures/eleiko-vector-logo-removebg-preview.png" alt="">
+          </div>
+        </a>
+        
+      </ul>
+   
+    
+      <div class="logos">
+      </div>
+  </section>
+
+
+  <section class="affSection">
+    <div>
+      <a href="/getStarted.html" target="_blank">
+        <button class="seeAll">Get Started Now</button>
+      </a>
+    </div>
+  </section>
+  
+  <div class="blog-section">
+    <div class="blog-title" id="blog1">
+      <h2>Blog Title 1</h2>
+    </div>
+    <div class="blog-title" id="blog2">
+      <h2>Blog Title 2</h2>
+    </div>
+    <div class="form-section">
+      
+      <div>
+        <a href="/joinConversion.html" target="_blank">
+          <button type="submitt">Join Conversation</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Footer Section -->
+
+    <!-- NEWSPAPER -->
+    <div class="footer__container reveal">
+      <div class="box">
+        <h1>SIGN UP FOR ALTITUDE'S NEWSLETTER
+        </h1>
+        <form>
+           <input type="text" name="" placeholder="Enter email address...">
+           <input type="submit" name="" value="SUBSCRIBE">
+        </form>
+     </div>
+     
+     
+     <!-- LINKS FOR SOCIAL MEDIA -->
+
+      <!-- ALTITUDE LOGO -->
+        <div class="logo">
+          <img src="/pictures/Altitude Fitness Management SD1 Logo.png" alt="">
+        </div> 
+
+            <div class="social__icons">
+              <a
+                href="https://www.instagram.com/altitudefitmgmt/" target="_blank"
+                class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@fitmolife" target="_blank"
+                class="social__icon--link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank"
+                class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/AltitudeMgmtInt" target="_blank"
+                class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+
+        <!-- LINK WRAPPER -->
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/termOfUse.html" target="_blank">Terms</a>
+            <a href="/privacyPolacy.html" target="_blank">Privacy policy</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" >Legal</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank">Altitude Shop</a>
+            <a href="https://altitude-media-group.breezy.hr/" target="_blank">Carrers</a>
+          </div>
+
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Contact</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Support</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Technical</a>
+            <a href="https://altitude-media-group.breezy.hr/" target="_blank">Location</a>
+          </div>
+
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">Instagram</a>
+            <a
+              href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank"
+              >LinkedIn</a>
+            <a href="https://twitter.com/AltitudeFitMgmt" target="_blank">Twitter</a>
+            <a href="https://www.fitmolife.com/" target="_blank">FitMoLife</a>
+            <a href="#">Rumble</a>
+          </div>
+        </div>
+
+        <div class="sponsors">
+          <p>IN PARTNERSHIP WITH</p>
+          <a href="https://www.fbafitness.com/content/fitness-business-association-1" target="_blank">
+            <img class="img1" src="/pictures/fba-logo5-1024x614.png" alt="Sponsor 2" >
+          </a>
+          <a href="https://www.ihrsa.org/" target="_blank">
+            <img class="img2" src="/pictures/sponor-removebg-preview.png" alt="Sponsor 1">
+          </a>
+        </div>
+      
+        <div class="signatures">
+          <p class="signText">Designed by the Altitude Fitness Development Team</p>
+          <img src="/pictures/MicrosoftTeams-image__6_-removebg-preview.png" class="sign1">
+          <img src="/pictures/MicrosoftTeams-image__7_-removebg-preview.png" class="sign2">
+        </div>
+
+      <section class="footer_p_2">
+        <p class="website__rights">
+          Copyright © 2023 Altitude Fitness Management Group,
+        </p>
+        <p class="website__rights">
+          a registered Altitude Enterprises Company. All rights reserved
+        </p>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      
+      var typingEffect = new Typed(".multiText", {
+        strings: ["ALTITUDE"],
+        loop: false,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+
+      var typingEffect = new Typed(".multiText_2", {
+        strings: ["FITNESS MANAGEMENT"],
+        loop: false,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
