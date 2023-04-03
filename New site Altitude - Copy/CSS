@@ -5,6 +5,14 @@
   font-family: "Glacial Indifference", sans-serif;
   scroll-behavior: smooth;
 }
+
+ul { 
+  display: flex; 
+  justify-content: 
+  space-between; 
+  align-items: center; 
+}
+
 .navbar {
   background-color: transparent; 
   backdrop-filter: blur(40px); 
@@ -26,19 +34,16 @@
   height: 82px;
   z-index: 1;
   width: 100%;
-  max-width: 1350px;
+  max-width: 1383px;
   margin: 0 auto;
   padding-top: 7px;
+  padding-right: 143px;
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: transparent;
+  background-color: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -55,6 +60,7 @@
 .navbar__item {
   height: 80px;
   text-decoration: bold !important;
+  border-bottom: 3px solid transparent
 }
 
 .navbar__links {
@@ -67,6 +73,7 @@
   height: 100%;
   transition: all 0.3s ease;
   font-weight: 600;
+  border-bottom: 3px solid transparent
 }
 
 .navbar__btn {
@@ -114,8 +121,8 @@
 
 .navbar__links:hover {
   color: rgba(214,37,37,255);
-  transition: all 0.3s ease;
-  border-bottom: 1px solid rgba(214,37,37,255);
+
+  border-bottom: rgba(214,37,37,255);
 }
 
 a:-webkit-any-link:hover {
@@ -793,7 +800,7 @@ video {
   display: block;
   height: 1px;
   width: 57px;
-  margin: 0.3px 42rem 0px;
+  margin: 0.3px 53.8rem 0px;
 }
 
 
@@ -1004,7 +1011,7 @@ video {
   display: block;
   height: 1px;
   width: 45px;
-  margin: 1.3px 34.6rem 0px;
+  margin: 1.3px 46.6rem 0px;
 }
 
 .fitmolife {
@@ -1034,30 +1041,32 @@ video {
     border-top-right-radius: 50%;
     transition: color 0.4s linear;
     border-radius: 40px !important;
-    /* background-image: url("/pictures/gym.photo.png") !important; */
-    /* border-image: url("/gymGrown.html") !important; */
+    
 }
 
 .services__card:nth-child(1) {
-  /* background-image: url("/pictures/gym.photo.png");
+  background-image: url("/gym.photo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-clip: content-box;*/
+  background-clip: content-box;
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.5); 
 }
 
 .services__card:nth-child(2) {
+  
   background-color: #111111;
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.5);
 }
 
 .services__card:nth-child(3) {
+  
   background-color: #111111;
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.5);
 }
 
 .services__card:nth-child(4) {
+  
   background-color: #111111;
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.5);
 }
@@ -1066,7 +1075,7 @@ video {
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  top: 75px;
+  top: 29px;
   left: 0;
   right: 0;
   text-align: center;
@@ -1074,13 +1083,16 @@ video {
   text-shadow: 0.3px 0.3px 0.3px #fefefe;
 }
 
+
+
 .services__card p {
   text-align: center;
-  margin-top: -47px;
+  margin-top: 237px;
   font-size: 1.2rem;
   margin-right: 15px;
   margin-left: 15px;
   text-shadow: 0.1px 0.1px 0.1px #fefefe;
+  justify-content: center;
 }
 
 .services__btn {
@@ -1330,7 +1342,7 @@ video {
   display: block;
   height: 1px;
   width: 67px;
-  margin: 1.3px 39rem 0px;
+  margin: 1.3px 51rem 0px;
 }
 
  .profile-pic {
@@ -1445,8 +1457,8 @@ video {
     background-color: rgb(31, 0, 59);
     display: block;
     height: 1px;
-    width: 74px;
-    margin: 2.5px 39rem 5px;
+    width: 58px;
+    margin: 2.5px 35.5rem 5px;
 }
 
 .row_2 h1::after {
@@ -1763,13 +1775,29 @@ ul li:hover ul.dropdown {
   color: #111111 !important;
 }
 
-.arroww {
+.arroww1 {
   padding-top: 20px;
     display: inline-block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding-left: 110px; 
+    padding-left: 85px; 
+}
+.arroww2 {
+  padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 91px; 
+}
+.arroww3 {
+  padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 102px; 
 }
 
 .outTeamBtn {
@@ -1845,13 +1873,85 @@ ul li:hover ul.dropdown {
 
 
 .aff {
-  display: flex;
-  flex-direction: column;
+  display: row;
   justify-content: center;
   align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #443737;
+  width: 100%;
+  height: 250px;
+}
+
+
+
+
+.banner1 img {
+  background-size: 85% auto;
+  width: 180px;
+  height: 95px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+.banner2 img{
+  width: 180px;
+  height: 110px;
+  background-size: 75% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+.banner3 img{
+  width: 199px;
+  height: 128px;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+.banner4 img{
+  width: 180px;
+  height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  background-size: 100% auto;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+.banner5 img{
+  width: 190px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  background-size: 85% auto;
+  filter: brightness(0) invert(1);
+}
+.banner6 img{
+  width: 230px;
+    height: 154px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+    background-size: 125% auto;
+    margin: 5px;
+    filter: brightness(0) invert(1);
+}
+.banner7 img{
+  width: 180px;
+  height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  background-size: 85% auto;
+  margin: 5px;
+  filter: brightness(0) invert(1);
 }
 
 .aff li {
@@ -1860,11 +1960,105 @@ ul li:hover ul.dropdown {
 
 .imageContainer {
   width: 100%;
-  height: 100%;
+  height: 40%;
   background-image: url("/pictures/gym.photo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-clip: content-box;
   border-radius: 40px !important;
+}
+
+.seeAll::after {
+  position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgb(255, 129, 119);
+    transition: all 0.35s ease 0s;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+.seeAll:hover {
+  color: #fefefe;
+  border-radius: 10px;
+}
+
+.seeAll:hover:after {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-title {
+  width: 45%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(214,37,37,255);
+  color: #fefefe;
+}
+
+.blog-title:hover {
+  background-color: #ddd;
+}
+
+.form-section {
+  width: 45%;
+  background-color: #fff;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-join {
+  font-size: 1.2rem;
+  background: #833ab4;
+  background: rgba(214,37,37,255);
+  /* padding: 20px 60px; */
+  border: none;
+  border-radius: 10px;
+  margin-top: 6.5rem;
+  cursor: pointer;
+  transition: all 0.35s;
+  outline: none;
+  right: 53px;
+  transform: translate(0, -182%);
+  /* position: absolute; */
+  color: black;
+  width: 160px;
+}
+
+.post {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navbar__links:hover {
+  color: rgba(214,37,37,255);
+  transition: all 0.3s ease;
+  border-bottom: 3px solid rgba(214,37,37,255);
+  padding: 0.25rem 0.75rem;
+  width: 100px;
 }
